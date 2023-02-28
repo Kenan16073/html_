@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Zoo Keeper Application Form</h1>
+    <p>
+        Pleace complete the from. Mondatory fields are marked with a <font color="red"><sup>*</sup></font>
+    </p>
+    <br />
+    <form action="#">
+        <fieldset>
+            <legend><strong>Contact Details</strong></legend>
+            <label for="name">Name <font color="red"><sup>*</sup></font>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" id="name" placeholder="Name" required="required" />
+            <br />
+            <br />
+            <label for="telephone">Telephone <font color="red"><sup>*</sup></font> </label>
+            <input type="tel" placeholder="Telephone" required="required" />
+            <br />
+            <br />
+            <label for="">Email <font color="red"><sup>*</sup></font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email" placeholder="example@gmail.com" required="required" />
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend><strong>Personal Information</strong></legend>
+            <label for="">
+                <font color="red"><sup>*</sup></font> Age
+            </label>
+            <input type="text" required="required" />
+            <br />
+            <br />
+            <label for="gender">Select you gender</label>
+            <select name="gender">
+                <option value="none">none</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+            <br />
+            <br />
+            <label for="">When did you <br /> first know you <br /> wanted to be a <br /> zoo-keeper?<br /></label>
+            <textarea name="" id="" cols="20" rows="5"></textarea>
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend><strong>Pic Your Favorite Animals</strong></legend>
+            <label for="zebra">Zebra</label>
+            <input type="checkbox" id="zebra">
+
+            <label for="cat">Cat</label>
+            <input type="checkbox" id="cat">
+
+            <label for="anaconda">Anaconda</label>
+            <input type="checkbox" id="anaconda">
+
+            <label for="human">Human</label>
+            <input type="checkbox" id="human">
+
+            <label for="elephant">Elephant</label>
+            <input type="checkbox" id="elephant">
+
+            <label for="wildebeest">Wildebeest</label>
+            <input type="checkbox" id="wildebeest">
+
+            <label for="pigeon">Pigeon</label>
+            <input type="checkbox" id="pigeon">
+
+            <label for="crab">Crab</label>
+            <input type="checkbox" id="crab">
+        </fieldset>
+        <br />
+        <button type="submit">Submit Application</button>
+    </form>
+
+
+
+</body>
+
+</html>
